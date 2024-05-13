@@ -1,5 +1,5 @@
 window.addEventListener("resize", resizeCanvas, false);
-        window.addEventListener("DOMContentLoaded", onLoad, false);
+        window.addEventListener("DOMContentLoaded", onLoad, true);
         
         window.requestAnimationFrame = 
             window.requestAnimationFrame       || 
