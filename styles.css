@@ -1,0 +1,35 @@
+body{
+  background:black;
+  overflow:hidden;
+    margin:0px;
+  }
+  canvas{
+    background:black;
+  }
+  h1{
+    
+    text-align: center;
+    margin-top: 20px;
+    animation: any 5s ease-in 1s infinite normal;
+  }
+  h2{
+   
+    text-align:start;
+    margin-top: 10px;
+    animation: any 5s ease-in 3s infinite normal;
+  }
+  h3{
+    
+    text-align:end;
+    margin-top: 10px;
+    animation: any 5s ease-in 6s infinite normal;
+  }
+  @keyframes any {
+    0%{color:purple;font-size: xx-small;}
+    25%{color:rgb(158, 158, 221)}
+    50%{color:rgb(231, 231, 82)}
+    75%{color:rgb(231, 164, 83)}
+    100%{color:rgb(222, 81, 175);font-size: xx-large;}
+  }
+
+  
