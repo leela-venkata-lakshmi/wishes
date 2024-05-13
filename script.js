@@ -22,6 +22,8 @@ window.addEventListener("resize", resizeCanvas, false);
             const audio=new Audio();
             audio.src="happy-birthday-music-box(chosic.com).mp3";
             audio.controls=true;
+            audio.loop=true;
+            audio.volume =1;
             audio.play();
             canvas = document.getElementById("canvas");
             ctx = canvas.getContext("2d");
