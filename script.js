@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
             iterationCount++;
             if (iterationCount === 3) {
                 
-                birthdayText.innerText = " Dear Jay, Happy Bithday to you🥳🥳🎉🎉";
+                birthdayText.innerText = " Dear Jay, Happy Birthday to You🥳🥳🎉🎉";
             }
         });
         
