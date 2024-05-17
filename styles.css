@@ -1,29 +1,45 @@
+.hidden {
+    display: none;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ini{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+}
+#hi {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: rgb(163, 10, 82);
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius:10%;
+  animation: fadeInGrow 2s ease-in-out;
+}
+#hi:hover
+{
+  
+    background-color: rgb(4, 52, 52);
+}
 body{
-  background:black;
+  background-color: black;
   overflow:hidden;
     margin:0px;
   }
-  canvas{
-    background:black;
-  }
-  h1{
-    
-    text-align: center;
-    margin-top: 20px;
-    animation: any 5s ease-in 1s infinite normal;
-  }
-  h2{
+  
+ #birthdayText{
    
-    text-align:start;
-    margin-top: 10px;
-    animation: any 5s ease-in 3s infinite normal;
-  }
-  h3{
+    animation: any 4s ease-in 4s infinite normal;
     
-    text-align:end;
-    margin-top: 10px;
-    animation: any 5s ease-in 6s infinite normal;
   }
+  
   @keyframes any {
     0%{color:purple;font-size: xx-small;}
     25%{color:rgb(158, 158, 221)}
@@ -31,5 +47,20 @@ body{
     75%{color:rgb(231, 164, 83)}
     100%{color:rgb(222, 81, 175);font-size: xx-large;}
   }
+  @keyframes fadeInGrow {
+    0% {
+       
+        
+        transform: scale(0.5);
+    }
+    50%{
+      background-color: rgb(9, 68, 128);
+    }
+    100% {
+        
+        transform: scale(1);
+        background-color: rgb(143, 10, 110);
+    }
+}
 
   
